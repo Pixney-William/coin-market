@@ -1,0 +1,80 @@
+
+
+/*
+    Setup
+    ----------------------------------------------------------------------------
+*/
+
+.c-currency-list-item
+{
+    box-sizing: border-box;
+    width: var(--width);
+    max-width: var(--width);
+    min-height: var(--min-height);
+    margin: 0 auto;
+    padding: var(--padding);
+
+    border: 5px solid #fff;
+    background: var(--color-gray-100, #000);
+}
+
+
+/*
+    Responsiveness
+    ----------------------------------------------------------------------------
+*/
+.c-currency-list-item
+{
+    --width: calc(320px);
+    --min-height: 350px;
+    --padding: 1.5rem;
+}
+
+@media (min-width: 640px)
+{
+    .c-currency-list-item
+    {
+        --item-width: calc(50%);
+    }
+}
+@media (min-width: 768px)
+{
+    .c-currency-list-item
+    {
+    }
+}
+@media (min-width: 1024px)
+{
+    .c-currency-list-item
+    {
+    }
+}
+@media (min-width: 1280px)
+{
+    .c-currency-list-item
+    {
+    }
+}
+@media (min-width: 1536px)
+{
+    .c-currency-list-item
+    {
+    }
+}
+@media (min-width: 1800px)
+{
+    .c-currency-list-item
+    {
+    }
+}
+@media (min-width: 2000px)
+{
+    .c-currency-list-item
+    {
+    }
+}
+
+.c-currency-list-item__img
+{
+    width: 64px;
+}
