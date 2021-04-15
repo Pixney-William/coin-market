@@ -3,17 +3,12 @@ import { store, key } from "./store/index";
 import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
+import "@/assets/css/tailwind.css";
+import { filters } from "./filters";
 
 const app = createApp(App);
 
-app.config.globalProperties.$filters = {
-  currencyUSD(idIcon: string) {
-    if (!idIcon) return "/svgs/missing.svg";
-    return `https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_64/${idIcon.replace(
-      /-/g,
-      ""
-    )}.png`;
-  },
-};
+// Register global filters used throughout the app.
+app.config.globalProperties.$filters = filters;
 
 app.use(store, key).use(router).mount("#app");

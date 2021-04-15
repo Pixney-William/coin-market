@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
+  <section>
     <CurrencyList />
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
-import CurrencyList from "@/components/currency/List.vue";
+import CurrencyList from "@/components/molecules/List.vue";
 
 export default {
   name: "Coin Market Homepage",

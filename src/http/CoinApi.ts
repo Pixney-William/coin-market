@@ -9,4 +9,6 @@ const coinApi = axios.create({
   },
 });
 
+// https://rest.coinapi.io/v1/ohlcv/ETH/USD/latest?period_id=4MTH
+
 export { coinApi };
