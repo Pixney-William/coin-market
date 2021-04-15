@@ -1,4 +1,12 @@
-# coin-market-v3
+# Coin Market
+
+I have placed the components in an atom structure simply because i wanna
+show i understand the advantage of it. If i were to build this myself i probably
+would not have done this until later if the project grows.
+
+## Let me explain
+
+
 
 ## Project setup
 ```

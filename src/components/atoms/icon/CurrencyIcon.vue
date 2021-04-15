@@ -2,10 +2,9 @@
   <img
     :width="width"
     :height="height"
-    :src="src"
+    :src="$filters.makeImageSrc(src)"
     :alt="alt"
     loading="lazy"
-    :class="styling"
   />
 </template>
 
@@ -29,11 +28,6 @@ export default {
       type: Number,
       required: false,
       default: 128,
-    },
-    styling: {
-      type: String,
-      required: false,
-      default: "mx-auto",
     },
   },
 };

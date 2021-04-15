@@ -1,0 +1,32 @@
+
+{
+	"folders": [
+		{
+			"name": "src",
+			"path": "src"
+		},
+		{
+			"name": "views",
+			"path": "src/views"
+		},
+		{
+			"name": "docs",
+			"path": "docs"
+		},
+		{
+			"name": "public",
+			"path": "public"
+		},
+		{
+			"name": "components",
+			"path": "src/components"
+		},
+		{
+			"name": "coin-market-v3",
+			"path": "."
+		}
+	],
+	"settings": {
+		"vue3snippets.enable-compile-vue-file-on-did-save-code": false
+	}
+}
