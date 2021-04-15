@@ -1,25 +1,27 @@
 <template>
-  <nav class="c-nav">
-    <ul>
-      <li>
-        <router-link to="/">Husleie Coin Market</router-link>
-      </li>
-    </ul>
-  </nav>
+  <MainNav />
+
   <router-view />
 </template>
 
 <script lang="ts">
-import { onMounted } from "@vue/runtime-core";
+import { onMounted } from "vue";
+import MainNav from "@/components/molecules/nav/MainNav.vue";
 export default {
-  setup() {
+  components: {
+    MainNav,
+  },
+  setup(): void {
     onMounted(() => {
-      // Todo: Transition it .
-      const el: HTMLElement | null = document.querySelector(".c-glass");
-      if (el) {
-        const definitelyAnElement: HTMLElement = el;
-        definitelyAnElement.style.display = "block";
-        definitelyAnElement.style.opacity = "1";
+      try {
+        const el: HTMLElement | null = document.querySelector(".c-glass");
+        if (el) {
+          const definitelyAnElement: HTMLElement = el;
+          definitelyAnElement.style.display = "block";
+          definitelyAnElement.style.opacity = "1";
+        }
+      } catch (error) {
+        console.warn(error);
       }
     });
   },
@@ -28,7 +30,6 @@ export default {
 <style>
 .c-nav {
   @apply my-16 xl:my-24;
-  background: rgba(255, 255, 255, 0.5);
 }
 .c-nav ul {
   @apply flex justify-center text-center text-3xl lg:text-3xl font-extralight tracking-wide;

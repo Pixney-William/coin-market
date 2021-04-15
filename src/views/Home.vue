@@ -1,18 +1,13 @@
 <template>
-  <section>
-    <CurrencyList />
-  </section>
+  <CurrencyList />
 </template>
 
 <script lang="ts">
-import CurrencyList from "@/components/molecules/List.vue";
-
+import CurrencyList from "@/components/molecules/Currencies.vue";
 export default {
-  name: "Coin Market Homepage",
+  name: "Currencies",
   components: {
     CurrencyList,
   },
 };
 </script>
-
-<style scoped></style>

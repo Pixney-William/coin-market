@@ -1,3 +1,5 @@
 export enum MutationTypes {
   SET_CURRENCIES = "SET_CURRENCIES",
+  SET_HISTORY = "SET_HISTORY",
+  UNSET_HISTORY = "UNSET_HISTORY",
 }

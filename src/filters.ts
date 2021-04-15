@@ -31,5 +31,5 @@ export const filters = {
    */
   linkToCurrency: (assetId: string): string => {
     return `/${assetId}`;
-  }  
+  },
 };

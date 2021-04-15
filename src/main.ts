@@ -1,7 +1,6 @@
-import { createApp,h } from "vue";
+import { createApp, h } from "vue";
 import { store, key } from "./store/index";
 import App from "./App.vue";
-import "./registerServiceWorker";
 import router from "./router";
 import "@/assets/css/tailwind.css";
 import { filters } from "./filters";

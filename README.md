@@ -1,11 +1,11 @@
 # Coin Market
 
-I have placed the components in an atom structure simply because i wanna
-show i understand the advantage of it. If i were to build this myself i probably
-would not have done this until later if the project grows.
+You are required to set these env variables:
 
-## Let me explain
-
+```
+VUE_APP_BASE_URL=http://rest-sandbox.coinapi.io/v1/
+VUE_APP_COINAPI_KEY=YOUR_SECRET_KEY
+```
 
 
 ## Project setup
