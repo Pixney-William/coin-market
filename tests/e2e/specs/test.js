@@ -7,8 +7,8 @@ describe("My First Test", () => {
   });
   it("Clicks the bitcoin card and reaches its url.", () => {
     cy.visit("/");
-    cy.get("[data-cy=BTC] a").click()
-    cy.url().should('eq', 'http://localhost:8081/BTC')
+    cy.get("[data-cy=BTC] a").click();
+    cy.url().should("eq", "http://localhost:8081/BTC");
   });
   it("Visits the Etherum page directly.", () => {
     cy.visit("http://localhost:8081/ETH");
