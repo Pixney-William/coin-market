@@ -17,7 +17,7 @@
         </li>
         <li>
           <strong class="font-medium mr-4">Price:</strong>
-          {{ $filters.UsdFormattedString(currency.price_usd) }}
+          {{ $format.currencyString(currency.price_usd) }}
         </li>
       </ul>
     </div>

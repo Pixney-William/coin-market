@@ -11,7 +11,7 @@
             {{ currency.asset_id }}
           </span>
           <span>
-            {{ $filters.UsdFormattedString(currency.price_usd) }}
+            {{ $format.currencyString(currency.price_usd) }}
           </span>
         </div>
 
@@ -27,7 +27,7 @@
 
         <ButtonLink
           text="More"
-          :to="$filters.linkToCurrency(currency.asset_id)"
+          :to="$format.linkToCurrency(currency.asset_id)"
         />
       </li>
     </ul>

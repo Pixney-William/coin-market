@@ -3,12 +3,12 @@ import { store, key } from "./store/index";
 import App from "./App.vue";
 import router from "./router";
 import "@/assets/css/tailwind.css";
-import { filters } from "./filters";
+import { formatters } from "./formatters";
 
 const app = createApp(App);
 
 // Register global filters used throughout the app.
-app.config.globalProperties.$filters = filters;
+app.config.globalProperties.$format = formatters;
 
 // Title component
 app.component("Title", {

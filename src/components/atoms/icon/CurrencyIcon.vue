@@ -2,7 +2,7 @@
   <img
     :width="width"
     :height="height"
-    :src="$filters.makeImageSrc(src)"
+    :src="$format.imageSrc(src)"
     :alt="alt"
     loading="lazy"
   />
