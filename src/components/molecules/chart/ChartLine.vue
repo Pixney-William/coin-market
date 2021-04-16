@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import Chart from "chart.js/auto";
-import { HistoryDataInterface } from "@/interfaces/Interface";
+import { HistoryDataInterface } from "@/interfaces/HistoryDataInterface";
 import { onMounted } from "vue";
 import dayjs from "dayjs";
 interface HistoryProp {

@@ -8,7 +8,7 @@
 <script lang="ts">
 import { ref, computed } from "vue";
 import { useStore } from "@/store";
-import { CryptoInterface } from "@/interfaces/Interface";
+import { CryptoInterface } from "@/interfaces/CryptoInterface";
 import { useRoute } from "vue-router";
 import CardHistoryHeader from "@/components/molecules/CardHistoryHeader.vue";
 import ChartLine from "@/components/molecules/chart/ChartLine.vue";
