@@ -3,6 +3,7 @@
     <ul class="m-currency-list">
       <li
         class="m-card"
+        :data-cy="currency.asset_id"
         v-for="currency in currencies"
         :key="currency.asset_id"
       >
