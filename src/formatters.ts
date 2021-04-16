@@ -19,7 +19,7 @@ export const formatters = {
    * @param {number} value
    * @returns {string} Formatted currency string
    */
-   currencyString: (value: number): string => {
+  currencyString: (value: number): string => {
     return `US$ ${value.toFixed(2)}`;
   },
 
