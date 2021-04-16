@@ -1,6 +1,7 @@
 import { InjectionKey } from "vue";
 import { createStore, useStore as baseUseStore, Store } from "vuex";
-import { CryptoInterface, HistoryDataInterface } from "@/interfaces/Interface";
+import { CryptoInterface } from "@/interfaces/CryptoInterface";
+import { HistoryDataInterface } from "@/interfaces/HistoryDataInterface";
 import { MutationTypes } from "@/store/mutation-types";
 import { coinApi } from "@/http/CoinApi";
 
