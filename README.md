@@ -1,7 +1,14 @@
 # Coin Market
 
-You are required to set these env variables:
+[Click here for a demo page](https://elated-johnson-2aa901.netlify.app)
 
+[And this is a direct link](https://elated-johnson-2aa901.netlify.app/BTC)
+
+* tailwind - Since a year back this is my go to framwork when it comes to css.
+* dayjs - Just to simplify some date formatting when/if necessary.
+* chartjs - Just went with what i thought had a good typed support.
+
+## If you want to go for a testdrive yourself locally, these are necessary
 ```
 VUE_APP_BASE_URL=http://rest-sandbox.coinapi.io/v1/
 VUE_APP_COINAPI_KEY=YOUR_SECRET_KEY
