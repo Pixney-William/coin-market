@@ -1,6 +1,5 @@
 <template>
   <MainNav />
-
   <router-view />
 </template>
 
