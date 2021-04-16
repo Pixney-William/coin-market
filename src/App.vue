@@ -28,12 +28,6 @@ export default {
 };
 </script>
 <style>
-.c-nav {
-  @apply my-16 xl:my-24;
-}
-.c-nav ul {
-  @apply flex justify-center text-center text-3xl lg:text-3xl font-extralight tracking-wide;
-}
 .c-glass {
   @apply fixed top-0 w-screen h-screen;
   z-index: -1;
