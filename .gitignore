@@ -6,9 +6,9 @@ node_modules
 /tests/e2e/screenshots/
 
 
+.env
 # local env files
 .env.local
-.env
 .env.*.local
 
 # Log files
@@ -27,3 +27,4 @@ pnpm-debug.log*
 *.sw?
 
 
+.env
