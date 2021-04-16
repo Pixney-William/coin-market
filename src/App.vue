@@ -48,7 +48,4 @@ export default {
 .c-glass__blur {
   @apply bg-white opacity-50;
 }
-/* background-image: url("/svgs/bg.svg");
-  background-position: center;
-  background-attachment: fixed; */
 </style>
