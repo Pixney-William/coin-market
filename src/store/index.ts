@@ -58,7 +58,13 @@ export const store = createStore<State>({
         console.warn("Oops: ", error);
       }
     },
-    async fetchHistoryData({ commit }, currency) {
+
+    /**
+     * Fetches history data about a currency.
+     *
+     * @param  {string} currency
+     */
+    async fetchHistoryData({ commit }, currency: string) {
       commit(MutationTypes.UNSET_HISTORY);
       try {
         const response = await coinApi.get(
